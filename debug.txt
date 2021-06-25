@@ -1,0 +1,28 @@
+TypeError: on_reset() takes 1 positional argument but 2 were given
+TypeError: on_reset() takes 1 positional argument but 2 were given
+TypeError: on_reset() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "E:/PycharmProjects/rabbit/main.py", line 387, in GetValue
+    return self._data[row][col]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\callables.py", line 193, in getArgs
+    func = getRawFunction(callable_obj)
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\callables.py", line 85, in getRawFunction
+    raise ValueError(msg)
+ValueError: type "NoneType" not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/PycharmProjects/qijian_v1/main.py", line 375, in OnInit
+    pub.subscribe(self.Frame.up_data(), 'update_log')
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\publisher.py", line 160, in subscribe
+    subscribedListener, success = topicObj.subscribe(listener, **curriedArgs)
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\topicobj.py", line 353, in subscribe
+    args, reqd = topicArgsFromCallable(listener, ignoreArgs=curriedArgs)
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\topicargspec.py", line 51, in topicArgsFromCallable
+    argsInfo = getListenerArgs(_callable, ignoreArgs=ignoreArgs)
+  File "E:\PycharmProjects\qijian_v1\venv\lib\site-packages\pubsub\core\callables.py", line 196, in getArgs
+    raise ListenerMismatchError(str(exc), callable_obj)
+pubsub.core.callables.ListenerMismatchError: Listener "NoneType" (from module "__main__") inadequate: type "NoneType" not supported
