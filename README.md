@@ -12,6 +12,7 @@ pip install -r requirements.txt
 ```
 链接：https://pan.baidu.com/s/1mco0Dd69_t3r80VV12A_dQ 
 提取码：8bpl 
+下载解压到根目录
 ```
 
 ### 文件说明
