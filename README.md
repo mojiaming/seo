@@ -3,11 +3,22 @@
 
 模拟真人搜索操作，点击检索结果进入网站，以达到点击量与浏览量的提高，从而提升网站在搜索引擎中的排名
 
+### 安装依赖包
+```
+pip install -r requirements.txt
+```
+
+### 下载浏览器插件
+```
+链接：https://pan.baidu.com/s/1mco0Dd69_t3r80VV12A_dQ 
+提取码：8bpl 
+```
+
 ### 文件说明
 ###### res
 软件logo
 
-###### src
+##### src
 核心代码
 
   -baidu.py 操作百度
@@ -20,17 +31,17 @@
   
   -ui.py 表格视图
 
-###### data.txt
+##### data.txt
 设置快排的数据
 
-###### fake_useragent.json
+##### fake_useragent.json
 浏览器请求头，设置随机浏览器
 
-###### main.py
+##### main.py
 启动程序入口
 
-###### requirements.txt
+##### requirements.txt
 依赖包
 
-###### run.log
+##### run.log
 软件运行日志
