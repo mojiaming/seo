@@ -46,3 +46,10 @@ pip install -r requirements.txt
 
 ##### run.log
 软件运行日志
+
+# 快排体验版/免费
+```
+链接：https://pan.baidu.com/s/1XsQ0gO3K2P6JvrflY8oS9Q 
+提取码：9w4d
+```
+下载解压点击企建快排.exe文件运行即可
