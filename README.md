@@ -1,10 +1,10 @@
 # 一、快排体验版/免费
 ```
-链接：https://pan.baidu.com/s/1XsQ0gO3K2P6JvrflY8oS9Q 
-提取码：9w4d
+链接：https://pan.baidu.com/s/1ZkOooUFY0wEc1eTPWV84ig 
+提取码：r0y8
 ```
 下载解压点击企建快排.exe文件运行即可
-
+![alt text](/image/1.jpg "")
 
 
 
